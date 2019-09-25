@@ -1,0 +1,30 @@
+{
+  "name": "elo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablaber/elo.git"
+  },
+  "author": "Patrick Bacon-Blaber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablaber/elo/issues"
+  },
+  "homepage": "https://github.com/pablaber/elo#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "moment": "^2.24.0",
+    "precond": "^0.2.3",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
