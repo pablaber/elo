@@ -19,6 +19,10 @@
       "error",
       2
     ],
-    "max-len": "off"
+    "max-len": "off",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ]
   }
 }
